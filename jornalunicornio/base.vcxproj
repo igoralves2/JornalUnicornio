@@ -100,10 +100,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Jogo.cpp" />
+    <ClCompile Include="Jornal.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Jogo.h" />
+    <ClInclude Include="Jornal.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
