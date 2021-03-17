@@ -1,6 +1,6 @@
 #pragma once
 #include "libUnicornio.h"
-
+#include "Jornal.h"
 
 class Jogo
 {
