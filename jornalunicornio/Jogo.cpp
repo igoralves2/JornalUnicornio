@@ -36,10 +36,16 @@ void Jogo::inicializar()
 	texto_coluna.setEscala(0.5,0.5);
 	texto_coluna.setCor(0, 0, 0);
 	texto_coluna.setEspacamentoLinhas(1.5);
+
 	//Player
 	
 	player.setSpriteSheet("player");
 	player.setAnimacao(0);
+	
+	//Jornal
+
+	jornal = Jornal(texto_tituloJornal.getString(), "17/03/2021", "Games All-Stars", texto_coluna.getString());
+
 	//Painel Debug
 	gDebug.setPos(150, 350);
 }
