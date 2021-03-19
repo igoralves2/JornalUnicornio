@@ -15,7 +15,7 @@ protected:
 private:
 	Jornal jornal;
 	Sprite sprite_tempJornal, player;
-	Texto texto_tituloJornal, texto_coluna;
+	Texto texto_tituloJornal, texto_coluna, textonpadrao, textonpadraoplus;
 	
 };
 
